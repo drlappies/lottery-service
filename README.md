@@ -1,5 +1,9 @@
 ## Lottery System
 
+#### Starting it locally
+1. docker-compose up -d
+2. yarn start:dev
+
 #### User Story
 
 - There is no UI mockup/user story so I imagine the web application to be like:
