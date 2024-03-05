@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: lottery
+      POSTGRES_USER: developer
+      POSTGRES_PASSWORD: oozohnoaQu0quohZ5shahmo3Jei7naeW
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
